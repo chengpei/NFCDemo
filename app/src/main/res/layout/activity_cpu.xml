@@ -69,5 +69,12 @@
             android:text="查余额"
             android:id="@+id/queryButton"
             android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="充值流程"
+            android:id="@+id/rechargeButton"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 </RelativeLayout>
