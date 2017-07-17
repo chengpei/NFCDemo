@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/sectorsEditText"
                 android:layout_weight="1"
-                android:text="6" />
+                android:text="1" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/blockEditText"
                 android:layout_weight="1"
-                android:text="0" />
+                android:text="2" />
         </LinearLayout>
 
         <EditText
@@ -82,6 +82,71 @@
                     android:id="@+id/writeButton" />
             </LinearLayout>
         </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="密钥A"
+                android:id="@+id/keyATextView"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/keyAEditText"
+                android:text="D7856454DD0D"
+                android:layout_weight="8" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="密钥B"
+                android:id="@+id/keyBTextView"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/keyBEditText"
+                android:layout_weight="8"
+                android:text="CED0CFC1BBBF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="改停车卡"
+                android:id="@+id/updateParkCardButton"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/markTextView"
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 </RelativeLayout>
