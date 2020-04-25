@@ -5,7 +5,6 @@ import android.nfc.NfcAdapter;
 import android.nfc.tech.IsoDep;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AlertDialog;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,6 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
 
 import com.alibaba.fastjson.JSON;
 import com.whpe.nfcdemo.R;

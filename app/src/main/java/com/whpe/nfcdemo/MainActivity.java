@@ -3,10 +3,11 @@ package com.whpe.nfcdemo;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.provider.Settings;
-import android.support.v7.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AlertDialog;
 
 import com.whpe.nfcdemo.activity.CPUActivity;
 import com.whpe.nfcdemo.activity.CardActivity;
