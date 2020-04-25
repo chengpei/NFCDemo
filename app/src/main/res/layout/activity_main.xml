@@ -34,5 +34,14 @@
             android:layout_alignBottom="@+id/rwM1Button"
             android:layout_toRightOf="@+id/rwM1Button"
             android:layout_toEndOf="@+id/rwM1Button" />
+
+        <Button
+            android:id="@+id/scanQRButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="扫描二维码"
+            android:layout_alignBottom="@+id/rwCPUButton"
+            android:layout_toRightOf="@+id/rwCPUButton"
+            android:layout_toEndOf="@+id/rwCPUButton" />
     </LinearLayout>
 </RelativeLayout>
